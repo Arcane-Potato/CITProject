@@ -43,21 +43,27 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <!-- Slideshow -->
   <div class="w3-container">
     <div class="w3-display-container mySlides">
-      <img src="/w3images/coffee.jpg" style="width:100%">
+      <img src="https://github.com/Arcane-Potato/CITProject/blob/master/Picture%20of%20Processors/Ryzen%207.png" style="width:100%">
       <div class="w3-display-topleft w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum</span>
+        <span class="w3-white w3-padding-large w3-animate-bottom">AMD Ryzen 7 2700X </span>
       </div>
     </div>
     <div class="w3-display-container mySlides">
-      <img src="/w3images/workbench.jpg" style="width:100%">
+      <img src="https://github.com/Arcane-Potato/CITProject/blob/master/Picture%20of%20Processors/Intel%20I%207.jpg" style="width:100%">
       <div class="w3-display-middle w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Klorim tipsum</span>
+        <span class="w3-white w3-padding-large w3-animate-bottom">Intel Core i7-8700</span>
       </div>
     </div>
     <div class="w3-display-container mySlides">
-      <img src="/w3images/sound.jpg" style="width:100%">
+      <img src="https://github.com/Arcane-Potato/CITProject/blob/master/Picture%20of%20Processors/Intel%20I%205.jpg" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Blorum pipsum</span>
+        <span class="w3-white w3-padding-large w3-animate-bottom">Intel Core i5-8400</span>
+      </div>
+    </div>
+     <div class="w3-display-container mySlides">
+      <img src="https://github.com/Arcane-Potato/CITProject/blob/master/Picture%20of%20Processors/Ryzen%205.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">AMD Ryzen 5 2600X</span>
       </div>
     </div>
 
@@ -70,6 +76,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
       </div>
     </div>
   </div>
@@ -77,47 +84,42 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <!-- Grid -->
   <div class="w3-row w3-container">
     <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Consumer Reviews</span>
     </div>
     <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-      <h3>Design</h3>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <h3>AMD Ryzen 7 2700X</h3>
+      <p>Upgraded to the AMD Ryzen 7 2700x from my old Intel i7 3770k. My old system could still handle gaming and proccessing ok, But i always notices my CPU at Idle would be utilizing 20-30% of its resources. This chip completely destroys anything I throw at it with ease and it does not even break a sweat. Not only is this chip great for gaming but other multitasking. If you like to game but do a lot of other things like streaming your games, video editing, or other work related solutions then you cant go wrong!</p>
     </div>
 
     <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
-      <h3>Branding</h3>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <h3>Intel Core i7-8700</h3>
+      <p>Intel has now given us two more physical cores on the i7, and this is an excellent device. I'm not an overclocker, so I didn't get the K version, but the 8700 is a great device. It runs noticeably cooler than the 7700 in a friends PC (the transistor pitch is bigger on the 8700, making it's thermal characteristics better, but it's on a bigger die).</p>
     </div>
 
     <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
-      <h3>Consultation</h3>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <h3>Intel Core i5-8400</h3>
+      <p>Coming from a Pentium G4560, this chipset is crazy good. The power that you have with this chip is great. You can also overclock if you buy a good motherboard. If you are buying this chip, you should buy I top of the line motherboard as well to ensure you unlock the full potential of this chip.</p>
     </div>
 
     <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
-      <h3>Promises</h3>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <h3>AMD Ryzen 5 2600X</h3>
+      <p>Great value for the money. In gaming, same performance as the 2700x, for $100 less. Easier to setup higher quality streams than with any current gen (coffee lake at this time) Intel i5. If you heavily multi-task, render, or stream a lot (rather than once in awhile), I would recommend the 2700x over it, however.</p>
     </div>
   </div>
 
   <!-- Grid -->
   <div class="w3-row-padding" id="plans">
     <div class="w3-center w3-padding-64">
-      <h3>Pricing Plans</h3>
-      <p>Choose a pricing plan that fits your needs.</p>
+      <h3>Specifications</h3>
     </div>
 
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"><b>10GB</b> Storage</li>
-        <li class="w3-padding-16"><b>10</b> Emails</li>
-        <li class="w3-padding-16"><b>10</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 10</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
+        <li class="w3-black w3-xlarge w3-padding-32">AMD Ryzen 7 2700X</li>
+        <li class="w3-padding-16">8 Cores/16 Threads UNLOCKED </li>
+        <li class="w3-padding-16">4.3 GHz Max Boost </li>
+        <li class="w3-padding-16">20MB of Combined Cache </li>
+        <li class="w3-padding-16">Includes Wraith Spire Cooler</li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-green w3-padding-large">Sign Up</button>
         </li>
@@ -126,15 +128,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16"><b>25GB</b> Storage</li>
-        <li class="w3-padding-16"><b>25</b> Emails</li>
-        <li class="w3-padding-16"><b>25</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 25</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Intel Core i7-8700</li>
+        <li class="w3-padding-16">6 Cores / 12 Threads</li>
+        <li class="w3-padding-16">3.70 GHz up to 4.70 GHz Max</li>
+        <li class="w3-padding-16">12 MB Cache </li>
+        <li class="w3-padding-16">Intel UHD Graphics 630 </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-green w3-padding-large">Sign Up</button>
         </li>
@@ -143,15 +141,25 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>50GB</b> Storage</li>
-        <li class="w3-padding-16"><b>50</b> Emails</li>
-        <li class="w3-padding-16"><b>50</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 50</h2>
-          <span class="w3-opacity">per month</span>
+        <li class="w3-black w3-xlarge w3-padding-32">Intel Core i5-8400</li>
+        <li class="w3-padding-16">6 Cores/12 Threads</li>
+        <li class="w3-padding-16">2.80 GHz up to 4.00 GHz Max</li>
+        <li class="w3-padding-16">9 MB Cache</li>
+        <li class="w3-padding-16">Intel UHD Graphics 630</li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
         </li>
+      </ul>
+    </div>
+  </div>
+  
+      <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">AMD Ryzen 5 2600X</li>
+        <li class="w3-padding-16">6 Cores/12 Threads UNLOCKED</li>
+        <li class="w3-padding-16">4.2 GHz Max Boost</li>
+        <li class="w3-padding-16">19MB of Combined Cache</li>
+        <li class="w3-padding-16">Includes Wraith Spire Cooler</li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-green w3-padding-large">Sign Up</button>
         </li>
