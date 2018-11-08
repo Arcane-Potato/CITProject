@@ -11,6 +11,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.w3-col {height: 15px}
 </style>
 <body>
 
@@ -76,7 +77,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
       </div>
     </div>
   </div>
@@ -113,7 +114,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <h3>Specifications</h3>
     </div>
 
-    <div class="w3-third w3-margin-bottom">
+           <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">AMD Ryzen 7 2700X</li>
         <li class="w3-padding-16">8 Cores/16 Threads UNLOCKED </li>
@@ -121,39 +122,39 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <li class="w3-padding-16">20MB of Combined Cache </li>
         <li class="w3-padding-16">Includes Wraith Spire Cooler</li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+          <a href="https://www.google.com/search?q=AMD+Ryzen+7+2700X&client=firefox-b-1&source=lnms&tbm=shop&sa=X&ved=0ahUKEwi2yPDs5MXeAhUxq4MKHZCvCVYQ_AUIEigB&biw=1920&bih=944" target="_blank"><button class="w3-button w3-green w3-padding-large">Shop Now</button></a>
         </li>
       </ul>
     </div>
 
-    <div class="w3-third w3-margin-bottom">
+    <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Intel Core i7-8700</li>
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Intel Core <br>i7-8700</br></li>
         <li class="w3-padding-16">6 Cores / 12 Threads</li>
         <li class="w3-padding-16">3.70 GHz up to 4.70 GHz Max</li>
         <li class="w3-padding-16">12 MB Cache </li>
         <li class="w3-padding-16">Intel UHD Graphics 630 </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+          <a href="https://www.google.com/search?q=Intel+Core+i7-8700&client=firefox-b-1&source=lnms&tbm=shop&sa=X&ved=0ahUKEwig0LuD58XeAhWPrIMKHUy8DxkQ_AUIEigB&biw=1920&bih=944" target="_blank"><button class="w3-button w3-green w3-padding-large">Shop Now</button></a>
         </li>
       </ul>
     </div>
 
-    <div class="w3-third w3-margin-bottom">
+    <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Intel Core i5-8400</li>
+        <li class="w3-black w3-xlarge w3-padding-32">Intel Core <br>i5-8400</br></li>
         <li class="w3-padding-16">6 Cores/12 Threads</li>
         <li class="w3-padding-16">2.80 GHz up to 4.00 GHz Max</li>
         <li class="w3-padding-16">9 MB Cache</li>
         <li class="w3-padding-16">Intel UHD Graphics 630</li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+          <a href="https://www.google.com/search?q=Intel+Core+i5-8400&client=firefox-b-1&source=lnms&tbm=shop&sa=X&ved=0ahUKEwjc5vfw58XeAhUO8YMKHXEHB8wQ_AUIEigB&biw=1920&bih=944" target="_blank"><button class="w3-button w3-green w3-padding-large">Shop Now</button></a>
         </li>
       </ul>
     </div>
   </div>
   
-      <div class="w3-third w3-margin-bottom">
+      <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">AMD Ryzen 5 2600X</li>
         <li class="w3-padding-16">6 Cores/12 Threads UNLOCKED</li>
@@ -161,11 +162,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <li class="w3-padding-16">19MB of Combined Cache</li>
         <li class="w3-padding-16">Includes Wraith Spire Cooler</li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+          <a href="https://www.google.com/search?q=AMD+Ryzen+5+2600X&client=firefox-b-1&source=lnms&tbm=shop&sa=X&ved=0ahUKEwixk-iW6MXeAhUR3YMKHWOdC_cQ_AUIEigB&biw=1920&bih=944" target="_blank"><button class="w3-button w3-green w3-padding-large">Shop Now</button></a>
         </li>
       </ul>
     </div>
-  </div>
 
   <!-- Grid -->
   <div class="w3-row-padding" id="about">
