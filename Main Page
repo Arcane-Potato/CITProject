@@ -11,27 +11,12 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
-.w3-col {height: 15px}
+.w3-col {height: 480px}
+
 </style>
 <body>
 
-<!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-large w3-light-grey">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block">Home</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#plans" class="w3-button w3-block">Plans</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block">About</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#contact" class="w3-button w3-block">Contact</a>
-    </div>
-  </div>
-</div>
+
 
 <!-- Content -->
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
@@ -129,7 +114,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Intel Core <br>i7-8700</br></li>
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Intel Core i7-8700</li>
         <li class="w3-padding-16">6 Cores / 12 Threads</li>
         <li class="w3-padding-16">3.70 GHz up to 4.70 GHz Max</li>
         <li class="w3-padding-16">12 MB Cache </li>
@@ -142,7 +127,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-quarter w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Intel Core <br>i5-8400</br></li>
+        <li class="w3-black w3-xlarge w3-padding-32">Intel Core i5-8400</li>
         <li class="w3-padding-16">6 Cores/12 Threads</li>
         <li class="w3-padding-16">2.80 GHz up to 4.00 GHz Max</li>
         <li class="w3-padding-16">9 MB Cache</li>
@@ -151,7 +136,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <a href="https://www.google.com/search?q=Intel+Core+i5-8400&client=firefox-b-1&source=lnms&tbm=shop&sa=X&ved=0ahUKEwjc5vfw58XeAhUO8YMKHXEHB8wQ_AUIEigB&biw=1920&bih=944" target="_blank"><button class="w3-button w3-green w3-padding-large">Shop Now</button></a>
         </li>
       </ul>
-    </div>
   </div>
   
       <div class="w3-quarter w3-margin-bottom">
